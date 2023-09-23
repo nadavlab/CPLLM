@@ -1,4 +1,4 @@
-name: llama_cuda11.7
+name: cpllm-env
 channels:
   - pytorch
   - defaults
