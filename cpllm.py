@@ -9,7 +9,7 @@ from transformers import TrainingArguments, AutoConfig, \
 
 WITH_SUBGROUPS = False
 
-EPOCHS = 0.001
+EPOCHS = 6 # TODO: CHANGE THIS
 max_length = 4096
 output_dir = f"change_me"  # TODO: CHANGE THIS
 num_labels = 2
@@ -277,8 +277,8 @@ training_args = TrainingArguments(
     output_dir=output_dir,
     evaluation_strategy='steps',
     save_strategy='steps',
-    eval_steps=50,
-    save_steps=50,
+    eval_steps=1000,
+    save_steps=1000,
     num_train_epochs=EPOCHS,
     per_device_train_batch_size=8,
     per_device_eval_batch_size=4,
