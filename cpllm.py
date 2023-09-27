@@ -7,8 +7,6 @@ from sklearn.metrics import precision_recall_fscore_support, accuracy_score, auc
 from transformers import TrainingArguments, AutoConfig, \
     AutoModelForSequenceClassification, AutoTokenizer, BitsAndBytesConfig, DataCollatorWithPadding
 
-WITH_SUBGROUPS = False
-
 EPOCHS = 6 # TODO: CHANGE THIS
 max_length = 4096
 output_dir = f"change_me"  # TODO: CHANGE THIS
