@@ -28,11 +28,17 @@ conda activate cpllm-env
 ### 2. Data Extraction
 You can use the provided Jupyter notebooks to create the data required for fine-tuning the model. We have two notebooks for data extraction:
 
-2.1) Data Extraction for Next Diagnosis Prediction
+2.1) Data Extraction for Next Diagnosis Prediction:
 Use the `medbert-fine-tuning-data-extraction-eicu_crd.ipynb` notebook to extract data for next diagnosis prediction.
 
-2.2) Data Extraction for Next Visit Diagnosis Prediction
+2.2) Data Extraction for Next Visit Diagnosis Prediction:
 Use the `medbert-fine-tuning-data-extraction-mimic-iv.ipynb` notebook to extract data for next visit diagnosis prediction.
+
+2.3) Data Extraction for Readmission Prediction
+
+`pip install pyhealth`
+
+Then, use the script available at https://github.com/nadavlab/CPLLM/blob/main/readmission-data-extraction.py to utilize pyhealth for readmission data extraction.
 
 ### 3. Fine-Tuning
 After extracting the required data, you can fine-tune the CPLLM model. Make sure to modify the configuration variables in the `cpllm.py` code to suit your specific use case.
