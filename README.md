@@ -38,6 +38,6 @@ Use the `medbert-fine-tuning-data-extraction-mimic-iv.ipynb` notebook to extract
 After extracting the required data, you can fine-tune the CPLLM model. Make sure to modify the configuration variables in the `cpllm.py` code to suit your specific use case.
 
 Run the training of CPLLM:
-`python cpllm.py`
+`python cpllm_disease_prediction.py` for disease preidction. And `python cpllm_readmission_prediction.py` for readmission prediction.
 
 
