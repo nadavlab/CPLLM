@@ -4,11 +4,14 @@ This repository contains the code and resources for the paper titled "CPLLM: Cli
 
 If you use CPLLM or find this repository useful for your research or work, please cite us using the following citation:
 ```
-@article{shoham2023cpllm,
-  title={CPLLM: Clinical Prediction with Large Language Models},
+@article{shoham2024cpllm,
+  title={Cpllm: Clinical prediction with large language models},
   author={Shoham, Ofir Ben and Rappoport, Nadav},
-  journal={arXiv preprint arXiv:2309.11295},
-  year={2023}
+  journal={PLOS Digital Health},
+  volume={3},
+  number={12},
+  pages={e0000680},
+  year={2024}
 }
 ```
 
