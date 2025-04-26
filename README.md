@@ -2,6 +2,8 @@
 
 This repository contains the code and resources for the paper titled "CPLLM: Clinical Prediction with Large Language Models."
 
+Paper Link: https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000680
+
 If you use CPLLM or find this repository useful for your research or work, please cite us using the following citation:
 ```
 @article{shoham2024cpllm,
